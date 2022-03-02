@@ -1,0 +1,16 @@
+Source: https://www.youtube.com/watch?v=jBzwzrDvZ18&t=785s&ab_channel=freeCodeCamp.org
+title: Python Backend Web Development Course (with Django)
+Channel: freeCodeCamp.org in youtube.com
+
+Agenda
+1. Python: 
+    a. Fastest growing programming language
+    b. huge application in ML and APIs
+    c. Web development and more ...
+    
+2. Django: Python framework used for building serverside web application.
+    a. A blog application
+    b. A Weather Detector Site
+    c. A Realtime Chat application
+
+3. Django Rest Framework - to build rest APIs

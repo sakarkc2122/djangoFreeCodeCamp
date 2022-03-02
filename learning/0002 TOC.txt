@@ -1,0 +1,92 @@
+1. Installation of Python
+    a. to check: py --version
+    b. download VS code
+
+2. Hello world
+    a. print("Hello world")
+    b. print("My age is", 21) => , comma joins string and integer or string, gives one space.
+    c. print("My age is " + "21") => + , concatenate the two strings, but + won't give space.
+    d. print("My age is" + 21) => this doesn't work.
+    e. print("My age is" + "21") => + , concatenate the two strings.
+    
+
+3. Variables and Data types
+    a. A Python variable is a reserved memory location (containers) to store values.
+    b. Python has no command for declaring a variable.
+    c. A variable is created the moment you first assign a value to it.
+    d. If you want to specify the data type of a variable, this can be done with casting.
+        x = str(3)    # x will be '3'
+        y = int(3)    # y will be 3
+        z = float(3)  # z will be 3.0
+    e. You can get the data type of a variable with the type() function.
+    f. Variable names are case-sensitive.
+
+4. Strings in Python
+    a. strings are just plain text.
+    b. \n => to break line.
+    c. \' => to print single quote (') in the sentence.
+    d. print("Sakar"[0]) => give the 1st letter i.e. S
+    e. .upper(), .lower(), .islower(), .isupper(), len(), ...
+    f. print("Sakar".index("S")) => gives the index of S i.e. 0.
+    g. print("Sakar is".replace("is", "has"))
+
+5. Numbers in Python
+    a. There are three numeric types in Python: int, float, complex
+    b. Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+    c. Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+    d. Complex numbers are written with a "j" as the imaginary part
+    e. +, -, /, * means the arithmetic.
+    f. abs(), max(4, 2) => gives highest number, min(), round(), bin() => changes to binary.
+    g. from math import * => math is a module that provides access to the mathematical Functions
+    h. sqrt(). etc from math module
+
+6. Getting user's input
+    a. ask the user to input a text and we are going to save that text in the variable.
+    b.  name = input("Input you Name: ")
+        print(name)
+
+7. Word Replacement Exercise
+    a. in program directory: 0003wordReplacementExercise
+
+8. Lists in Python
+    a. Lists are used to store multiple items in a single variable.
+    b. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+    c. Lists are created using square brackets []
+    d. List items are ordered, changeable, and allow duplicate values.
+    e. List items are indexed, the first item has index [0], the second item has index [1] etc.
+    f. Different datatypes can be added in the List.
+
+9. List Methods in Python
+      Method	    Description
+    * append()  	Adds an element at the end of the list
+    * clear()	    Removes all the elements from the list
+    * copy()    	Returns a copy of the list
+    * count()	    Returns the number of elements with the specified value
+    * extend()  	Add the elements of a list (or any iterable), to the end of the current list
+    * index()	    Returns the index of the first element with the specified value
+    * insert()  	Adds an element at the specified position
+    * pop()	        Removes the element at the specified position
+    * remove()	    Removes the item with the specified value
+    * reverse()	    Reverses the order of the list
+    * sort()  	    Sorts the list
+
+
+10. Tuples
+11. Functions
+12. Return Statements
+13. If Statements in Python
+14. Python exercise 2
+15. Dictionaries
+16. While loops
+17. for loops
+18. 2D lists and Nested loops
+19. Comments in Python
+20. Building a Calculator
+21. Try except in Python
+22. Reading files
+23. Writing files
+24. classes and Objects
+25. Inheritance
+26. Python interpreter
+27. Modules in python
+28. Introduction to Pip
