@@ -55,6 +55,8 @@
     d. List items are ordered, changeable, and allow duplicate values.
     e. List items are indexed, the first item has index [0], the second item has index [1] etc.
     f. Different datatypes can be added in the List.
+    g. another way to declare:
+        countries = list(('Nepal', 34, False))
 
 9. List Methods in Python
       Method	    Description
@@ -71,8 +73,12 @@
     * sort()  	    Sorts the list
 
 
-10. Tuples
+10. Tuples:
+    a. w3schools.com (awesome website)
+
 11. Functions
+    a. w3schools.com
+    
 12. Return Statements
 13. If Statements in Python
 14. Python exercise 2
